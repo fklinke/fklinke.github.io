@@ -1,0 +1,70 @@
+---
+id: get-offers-product-offer-reference
+title: "Offers API"
+description: "Retrieves a single product offer"
+sidebar_label: "/offers/{productOfferReference}"
+hide_title: true
+hide_table_of_contents: true
+api: eJztWt9v2zYQ/lcIPm2AZMtuE3R+S7umC4Y2QZy8LDAMmjxbbCRSOVJOXUP/+3CU49iRYnfrnmYHAZKY9/s+HiN9XHIFTqIuvLaGD/g1eNQwB8cEc9rMMmAFWlVKz+x0CsgjXggUOXhAxwd3S25EDnzAV1KXJHQNU0AwEnjENVkthE959MLVTQq1TYYb8ggPpUZQfOCxhIg7mUIu+GDJ/aIgR86jNjNeVdHat8w0GD/W6slfCkKFWJsePwTZ+OJ3ZqfMp8DOiiLTUpBI5+f8O5AI/sdjGAZ5iuM/iOFbLC0iZMFIvLcUtw5C9mJi58BqIeYts0FAZNmCFcIRCjwKea/NjGkztZgH+yTpU+3Y2dVFxKYWGRgVexuDUUEBxERn2i+eimwLwKDZ9SiMEzKkyi6mwQuoKEi9zIE96ixjE2AIvkQDqvYLTFrjyhyQaVP38OqCIbjCGgdUwNcLNqLq1oKO1vtJQj+2i3P5J4+4tMaD8bQqntvT/epIZNl0YSdfQVL3C6Rsva4dtO+LRmQRh28iL7JgiWTHnz9eJ/TVjyfWyXQ8TuL+uyTunZzGyW+nvIp4DihTYfzwvtxtcG2KtCYojNot//5y+OEPki0E+i9lPgHcrZCw/ruE9U5O2Sq0h1IYr/1it9pJQrLafYE54GXpL6dDb+X9htLE2gyE2dSaisxBUDuTXs9htzRtoCriBvwV6n2F7yVJ0klCUHORaXWONm/r8LNGP+kncfIm7p2wJBmE77X2jd2r22voVhsSr4LnxxDyAiAbKFiDYNXp7Ua/6OZmM6ljrQ0LTdnsST24nsu+ru1WaVvrt1G+9hpF3GsfSkjFHZ/wqqK6vW3byu+FYtfwUIKj4tdzLuzLxrxsqA4LkHq6CANmY2oxrcB4PdXh4JKg56DYFG0eBLH2xSwyoRQoNlmsJ5T1KeCjdrBzQlX/YPQ8HxR3HBAt8lG0Zx7VYi90pVUQ8OKcmNWnsCBne60FxWYSawNtS09e2nKvmseldkw7NgMDqCWTNs+tYSELlgqjsnoTPyEiLFyvJvwaGL1md2+NKH1qUX8HdUTGwSLjTbO75xYnWikwR1gcLCzeNrv7xXp2bktznBaHC4uTZnc/g0+tYoSOsyyzj8fT5IDxcdo+Ns6khMKLSQZHbBwqNnr9ZnevEKQ1SoeWngudHYfHAQOk5XC5Na4sCoseFPsMSgt2Q8EcMXKYGDlpe8NxYTygERkbAs4B2cdQlyNEDhUiLecMvQT7JDw8isURGAcLjJZn2hUo2I3OIbbl8RXpYaKjiviaoLsgWmAGfhw4Bjd+jdfNw3NvLRsIBJ/yAe/WWt1lq1pFXQ2nVE0dl5gRQ+l94Qbd7iwrIZ4IeQ9GdXKB9+CLTEjo5HneEd9LhM73aUfavEFmDr2YEUMJZq7RmpyAQdTotn1R6E6BNiauw5GdLoKnf7qxO+81bF7VCRCat8yOiFed1tTOqqAE3L/O7wq0oyuyzULWjogMQFeb63WSTtIMPOyfFXgDjyqyjLjUwmrjHQubr6Y9G+ZpvwSOzjqfi4CjFRW8vwlbUSyfN9OP0P8rQHr45rtFJrShIEKllysU3NX8FBVg0A6fUcRT6zyJLpcT4eAWs6qijx9KwAUf3I2IBUIdnpkJKko7+l2tqaZXU/jlerVrf2XtNwxaE1h9KMyi5p9K+otH/B4Wr15uqEbV07z8uRj33UlojbiObPPqwzpswv7PBvPq5YT9wazvQfzLgP7fdxN21K/lDsdWCWup+m3SxlrjAKQhtZ7Pnz7e8Kr6Gw8Zels=
+sidebar_class_name: "get api-method"
+info_path: docs/pro-parts-api-offer/api-zf-pro-parts-offers
+custom_edit_url: null
+---
+
+import MethodEndpoint from "@theme/ApiExplorer/MethodEndpoint";
+import ParamsDetails from "@theme/ParamsDetails";
+import RequestSchema from "@theme/RequestSchema";
+import StatusCodes from "@theme/StatusCodes";
+import OperationTabs from "@theme/OperationTabs";
+import TabItem from "@theme/TabItem";
+import Heading from "@theme/Heading";
+
+<Heading
+  as={"h1"}
+  className={"openapi__heading"}
+  children={"/offers/\\{productOfferReference\\}"}
+>
+</Heading>
+
+<MethodEndpoint
+  method={"get"}
+  path={"/offers/{productOfferReference}"}
+  context={"endpoint"}
+>
+  
+</MethodEndpoint>
+
+
+
+Retrieves a single product offer
+
+<Heading
+  id={"request"}
+  as={"h2"}
+  className={"openapi-tabs__heading"}
+  children={"Request"}
+>
+</Heading>
+
+<ParamsDetails
+  parameters={[{"name":"productOfferReference","in":"path","description":"The offer reference","required":true,"schema":{"type":"string"}},{"name":"client_id","in":"header","description":"The Client-ID of the Application.","required":true,"schema":{"type":"string"}},{"name":"client_secret","in":"header","description":"The Client-Secret of Application.","required":true,"schema":{"type":"string"}},{"name":"x-correlation-id","in":"header","description":"Use the above header to optionally pass a tracking information to this API, for end-to-end traceability of the operation/transaction. If passed, the x-correlation-id will be returned to the consumer in the API response.","schema":{"type":"string"}}]}
+>
+  
+</ParamsDetails>
+
+<RequestSchema
+  title={"Body"}
+  body={undefined}
+>
+  
+</RequestSchema>
+
+<StatusCodes
+  id={undefined}
+  label={undefined}
+  responses={{"200":{"description":"OK","content":{"application/json":{"schema":{"type":"object","properties":{"productOfferReference":{"type":"string","example":"offer_MER000002-bosch__0-280-156-096"},"merchantSku":{"type":"string","example":"MER000002"},"brand":{"type":"string","example":"BOSCH"},"partNumber":{"type":"string","example":"0 280 156 096"},"quantity":{"type":"string","example":"50"},"isNeverOutOfStock":{"type":"boolean","example":false},"isActive":{"type":"boolean","example":true},"netPrice":{"type":"string","example":"1000.00"},"validFrom":{"type":"object","example":"2020-03-15 00:00:00"},"validTo":{"type":"object","example":"2021-03-15 00:00:00"}},"example":{"productOfferReference":"offer_MER000002-bosch__0-280-156-096","merchantSku":"MER000002","brand":"BOSCH","partNumber":"0 280 156 096","quantity":"50","isNeverOutOfStock":false,"isActive":true,"netPrice":"1000.00","validFrom":"2020-03-15 00:00:00","validTo":"2021-03-15 00:00:00"},"title":"type_5"}}}},"400":{"description":"Bad Request","headers":{"x-correlation-id":{"description":"Specify the transaction identifier received from the request or added by the API otherwise","schema":{"type":"string"}}},"content":{"application/json":{"schema":{"required":["error"],"type":"object","properties":{"error":{"required":["code","message","reason"],"type":"object","properties":{"code":{"type":"string"},"reason":{"type":"string"},"message":{"type":"string"}}}},"description":"This is generic common error handling","title":"errorResponse"}}}},"401":{"description":"Unauthorized","headers":{"x-correlation-id":{"description":"Specify the transaction identifier received from the request or added by the API otherwise","schema":{"type":"string"}}},"content":{"application/json":{"schema":{"required":["error"],"type":"object","properties":{"error":{"required":["code","message","reason"],"type":"object","properties":{"code":{"type":"string"},"reason":{"type":"string"},"message":{"type":"string"}}}},"description":"This is generic common error handling","title":"errorResponse"}}}},"403":{"description":"Forbidden","headers":{"x-correlation-id":{"description":"Specify the transaction identifier received from the request or added by the API otherwise","schema":{"type":"string"}}},"content":{"application/json":{"schema":{"required":["error"],"type":"object","properties":{"error":{"required":["code","message","reason"],"type":"object","properties":{"code":{"type":"string"},"reason":{"type":"string"},"message":{"type":"string"}}}},"description":"This is generic common error handling","title":"errorResponse"}}}},"404":{"description":"Not Found","headers":{"x-correlation-id":{"description":"Specify the transaction identifier received from the request or added by the API otherwise","schema":{"type":"string"}}},"content":{"application/json":{"schema":{"required":["error"],"type":"object","properties":{"error":{"required":["code","message","reason"],"type":"object","properties":{"code":{"type":"string"},"reason":{"type":"string"},"message":{"type":"string"}}}},"description":"This is generic common error handling","title":"errorResponse"}}}},"405":{"description":"Method Not Allowed","headers":{"x-correlation-id":{"description":"Specify the transaction identifier received from the request or added by the API otherwise","schema":{"type":"string"}}},"content":{"application/json":{"schema":{"required":["error"],"type":"object","properties":{"error":{"required":["code","message","reason"],"type":"object","properties":{"code":{"type":"string"},"reason":{"type":"string"},"message":{"type":"string"}}}},"description":"This is generic common error handling","title":"errorResponse"}}}},"406":{"description":"Not Acceptable","headers":{"x-correlation-id":{"description":"Specify the transaction identifier received from the request or added by the API otherwise","schema":{"type":"string"}}},"content":{"application/json":{"schema":{"required":["error"],"type":"object","properties":{"error":{"required":["code","message","reason"],"type":"object","properties":{"code":{"type":"string"},"reason":{"type":"string"},"message":{"type":"string"}}}},"description":"This is generic common error handling","title":"errorResponse"}}}},"412":{"description":"Precondition Failed","headers":{"x-correlation-id":{"description":"Specify the transaction identifier received from the request or added by the API otherwise","schema":{"type":"string"}}},"content":{"application/json":{"schema":{"required":["error"],"type":"object","properties":{"error":{"required":["code","message","reason"],"type":"object","properties":{"code":{"type":"string"},"reason":{"type":"string"},"message":{"type":"string"}}}},"description":"This is generic common error handling","title":"errorResponse"}}}},"415":{"description":"Unsupported Media Type","headers":{"x-correlation-id":{"description":"Specify the transaction identifier received from the request or added by the API otherwise","schema":{"type":"string"}}},"content":{"application/json":{"schema":{"required":["error"],"type":"object","properties":{"error":{"required":["code","message","reason"],"type":"object","properties":{"code":{"type":"string"},"reason":{"type":"string"},"message":{"type":"string"}}}},"description":"This is generic common error handling","title":"errorResponse"}}}},"500":{"description":"Internal Server Error","headers":{"x-correlation-id":{"description":"Specify the transaction identifier received from the request or added by the API otherwise","schema":{"type":"string"}}},"content":{"application/json":{"schema":{"required":["error"],"type":"object","properties":{"error":{"required":["code","message","reason"],"type":"object","properties":{"code":{"type":"string"},"reason":{"type":"string"},"message":{"type":"string"}}}},"description":"This is generic common error handling","title":"errorResponse"}}}},"502":{"description":"Bad Gateway","headers":{"x-correlation-id":{"description":"Specify the transaction identifier received from the request or added by the API otherwise","schema":{"type":"string"}}},"content":{"application/json":{"schema":{"required":["error"],"type":"object","properties":{"error":{"required":["code","message","reason"],"type":"object","properties":{"code":{"type":"string"},"reason":{"type":"string"},"message":{"type":"string"}}}},"description":"This is generic common error handling","title":"errorResponse"}}}},"504":{"description":"Gateway Time-out","headers":{"x-correlation-id":{"description":"Specify the transaction identifier received from the request or added by the API otherwise","schema":{"type":"string"}}},"content":{"application/json":{"schema":{"required":["error"],"type":"object","properties":{"error":{"required":["code","message","reason"],"type":"object","properties":{"code":{"type":"string"},"reason":{"type":"string"},"message":{"type":"string"}}}},"description":"This is generic common error handling","title":"errorResponse"}}}}}}
+>
+  
+</StatusCodes>
+
+

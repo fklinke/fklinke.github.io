@@ -1,0 +1,70 @@
+---
+id: generate-sso-token
+title: "Partners API"
+description: "Generate an SSO token for a partner user."
+sidebar_label: "Generate SSO token"
+hide_title: true
+hide_table_of_contents: true
+api: eJytVF1vGjEQ/CvWPrXScQdRWpp7S6s2ivpQVBJVKuLB2As43NnO2heFnPjv1R5HKB9J0za8IFvrmbnd2alBY1BkfDTOQg4XaJFkRCGtGA6/iegWaMXUkZDCS4oWSVQBKYUEvCRZYkQKkI9qsLJEyKGt+opLSMAw5m2FxAfC28oQasgjVZhAUHMsJeQ1xKXnpyGSsTNYJXuiBi3xApfCWDHy5MZ8F2CV7PP+cLQIc+dfk3+DuRGwaURYhojlERHX4XUbwHhPkY8ZN3hnAwaGOul2+W8X4KoZ46wdroYElLMRbeRS6X1hlOTS7CZwfX0ozU1uUEWeOjmPFM2arfHH4RckgPey9AVf9dUHPe1p3elOepPOqcJ+R55OdKd/pvrvz9RUd/snsGp+CZweU/9RasG9wxChqekd1lxbWcW5I/OAmoveHQMaIt0hCSRyBEwXUFVk4rIx8KfCoI2XGvLROGlPQ1SEkW+40SXGudOQwwybVsg4hxyydiRZCC7b9Liz7gxTMOd6RSoqIId5jD7kWTYrKuxMpFqg1WkpaYHRF1JhWpZlKh8qwvRhmipXwr4fhlHOjJ0JtHeGnC15kOzCXXzpTerJdVheYJyMMEpTIGV3vQPMATldKT7swo7ZxFPXzNjEZqLng0vx88t2DUW7oAES4G9dA/bSbto9lO5RmWlrt3WwFIVAq70zNgZBWLBDRXTiCIE4H1zydL0LsZSN8drNewyux9Tap663nv+rmGudHfE+Zr6QxrKAptN164DRZu953MFBAnsuGCcwd4FtBHU9kQGvqVit+HodDewNbYKcFBwOU1kEfEb8m+9tjrwVTyfjE7oXuNzP6DtZVFzYOOifVPwhH18iZTe2/1/SM4n5EjnbAN9KGfOBDGtp8iCBOUqN1Exv/fpcKfTxt1cH0bqTIhefr2C1+gUYWZpX
+sidebar_class_name: "get api-method"
+info_path: docs/pro-parts-api-partner/api-zf-pro-parts-partners
+custom_edit_url: null
+---
+
+import MethodEndpoint from "@theme/ApiExplorer/MethodEndpoint";
+import ParamsDetails from "@theme/ParamsDetails";
+import RequestSchema from "@theme/RequestSchema";
+import StatusCodes from "@theme/StatusCodes";
+import OperationTabs from "@theme/OperationTabs";
+import TabItem from "@theme/TabItem";
+import Heading from "@theme/Heading";
+
+<Heading
+  as={"h1"}
+  className={"openapi__heading"}
+  children={"Generate SSO token"}
+>
+</Heading>
+
+<MethodEndpoint
+  method={"get"}
+  path={"/partner/sso/generate-token"}
+  context={"endpoint"}
+>
+  
+</MethodEndpoint>
+
+
+
+Generate an SSO token for a partner user.
+
+<Heading
+  id={"request"}
+  as={"h2"}
+  className={"openapi-tabs__heading"}
+  children={"Request"}
+>
+</Heading>
+
+<ParamsDetails
+  parameters={[{"name":"partnerKey","in":"query","required":true,"schema":{"type":"string"},"description":"Partner key in [pro]Parts"},{"name":"partnerWorkshopKey","in":"query","required":true,"schema":{"type":"string"},"description":"Workshop key in partner system"},{"name":"partnerUserKey","in":"query","required":true,"schema":{"type":"string"},"description":"User key in partner system"}]}
+>
+  
+</ParamsDetails>
+
+<RequestSchema
+  title={"Body"}
+  body={undefined}
+>
+  
+</RequestSchema>
+
+<StatusCodes
+  id={undefined}
+  label={undefined}
+  responses={{"200":{"description":"Token generated","content":{"application/json":{"schema":{"type":"object","properties":{"token":{"type":"string","example":"7c8df1dd-0b1b-4ce7-a4bd-79c769cfd072"}}}}}},"400":{"description":"Bad request"},"401":{"description":"Unauthorized"},"500":{"description":"Server error"}}}
+>
+  
+</StatusCodes>
+
+

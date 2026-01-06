@@ -1,0 +1,70 @@
+---
+id: patch-order-merchant-order-reference-ship
+title: "Orders API"
+description: "Confirms the shipment of order items. Single order items can be marked as shipped by providing a request data. If the body is missing, all items are marked to be shipped."
+sidebar_label: "/order/{merchantOrderReference}/ship"
+hide_title: true
+hide_table_of_contents: true
+api: eJztWU1v4zYQ/SsETy0gy84224Nvadptc9g2yMelgRHQ5NjihiK5Q8qJY+i/F0PJjh0pH9jtpbVPcaSZx5nhG1LkW3EFQaL2UTvLx/zU2ZnGMrBYAAuF9iXYyNyMOVSATEcoQ84utZ0b2H7GpLBsCqwUeAeKiZCcPSg2XTKPbqGVtnMmGMLXCkJkSkSRs7NZGmjq1JLpwEodgrbzjAljWlyBG9DoaIQWN+cZ9wJFCREw8PHNiltRAh/zElAWwsa/KLoLmAGClcAzrilBL2LBM05haATFxxEryHiQBZSCj1c8Lj2hhIjaznldZxtgaTTYeKvVGqsAoQB59qyGVwWw02Q7OPuVakcpnnhvtBRkkn/f+AEkQnx/DJfJnuL4F2J4GEiHCCaBDN4sxXWAlL2YugWwxojm0SUDYcySeRECEyyikHdEEW1nDsuET5ax0IGdnJ9lbOaQgVWD6AZgVXIAMdVGx+W6yM4DJs9hRGGDkClVYhmNAipLVs9zYPfaGKIWQqzQNkwjQ+lsqEqiuG3m8PyMIQTvbAAq4MsFm1B1G8NA7z+MjunPbnEuWgt2X4DdaaZ7wJ5WoiGlsxFs5ONVXWf8eDTqwv4iFLtouoxn7cSkIDpz13G99CD1bJmS3aog0wps1DMNyBAk6AUoNkNXJsN1RztkQqmm49fVcrEAvNcBXq1WvZ0XF08sHX4JFNdqy/eJtDccEB3ySbYGdNMvIClpj8SEqJviN2bPfKVTFFQJIYg5pG4QNNibaMmxm8QGoO/VepS+3Otu6+pAi+EcLKCWTLqydJalLFghrDLkmfGooyGo9GLNpRbxeHTUnd1rK6pYONSPoA7M2Ftm/HRgxoEZvcx45x6lHARmXWTwoEPMD4TZW8J87M7uZ4iFU+xPF9mJMe7+sKDsMT9+7s5uIoaU4KOYGjhwY1+5cdRzctndbOj8QwfC7YPR1r2CbvYg70LQUwM9h6OjD90hzhGks0on1nwS2hzWpz3mYM/+dW1D5b3DCIp9BqUFu6JgDhzZT4587LthObMR0ArDLgEXgOy3VJcDRfaVIj37DF3C/S4i3IvlgRh7S4yeA3VLCnalSxi46nBFu5/sqDO+ESvOVKNLyeI2feve9itYt/Tlm+pBJ+y1S5LBYsHHfJich6t+73rYuoe0ZzWKWYWGtJsYfRgPh3NTwWAq5B1YlSf1IXojJORlWebisULIH2e5dGVH5rmMYk6f6mAXGp0lzZCTaLSLL7zOPbqBFxgD4QwRIn2C43Bx1ME8R6eqhts7sBNSnGYuTVRbXqLx359uPLrJOWGzlHrgGadMG7ijfJSPuoGnbmqpnBQmUh7BKu+0jYGlVmwEoQ48dQ8xx7sQS5FY1Ypk75yJnVBWT/313xJh226J8BCH3ghtqSZp4lctM294ipFnfPyiNptKMsl44UIkj9VqKgJco6lrevy1Alzy8c0k4wuBOl0dEIGVDvRb8fFMmACv1PSHi3Zl+ZG9FHT7UFjashfCVPQfz/gdLF+WletJvV7Bvz2i9yjGvSE3oW0L05u4qf++N5gXpeO3g9mo1N8Y0P9bOX6lfj0K+04JG6vmCm3rXWdLpoVys1Wcn1yd/sHr+h/NuvIF
+sidebar_class_name: "patch api-method"
+info_path: docs/pro-parts-api-order/api-zf-pro-parts-orders
+custom_edit_url: null
+---
+
+import MethodEndpoint from "@theme/ApiExplorer/MethodEndpoint";
+import ParamsDetails from "@theme/ParamsDetails";
+import RequestSchema from "@theme/RequestSchema";
+import StatusCodes from "@theme/StatusCodes";
+import OperationTabs from "@theme/OperationTabs";
+import TabItem from "@theme/TabItem";
+import Heading from "@theme/Heading";
+
+<Heading
+  as={"h1"}
+  className={"openapi__heading"}
+  children={"/order/\\{merchantOrderReference\\}/ship"}
+>
+</Heading>
+
+<MethodEndpoint
+  method={"patch"}
+  path={"/order/{merchantOrderReference}/ship"}
+  context={"endpoint"}
+>
+  
+</MethodEndpoint>
+
+
+
+Confirms the shipment of order items. Single order items can be marked as shipped by providing a request data. If the body is missing, all items are marked to be shipped.
+
+<Heading
+  id={"request"}
+  as={"h2"}
+  className={"openapi-tabs__heading"}
+  children={"Request"}
+>
+</Heading>
+
+<ParamsDetails
+  parameters={[{"name":"merchantOrderReference","in":"path","required":true,"schema":{"type":"string"}},{"name":"client_id","in":"header","description":"The Client-ID of the Application.","required":true,"schema":{"type":"string"}},{"name":"client_secret","in":"header","description":"The Client-Secret of Application.","required":true,"schema":{"type":"string"}},{"name":"x-correlation-id","in":"header","description":"Use the above header to optionally pass a tracking information to this API, for end-to-end traceability of the operation/transaction. If passed, the x-correlation-id will be returned to the consumer in the API response.","schema":{"type":"string"}}]}
+>
+  
+</ParamsDetails>
+
+<RequestSchema
+  title={"Body"}
+  body={undefined}
+>
+  
+</RequestSchema>
+
+<StatusCodes
+  id={undefined}
+  label={undefined}
+  responses={{"204":{"description":"Response when order items were marked as shipped.","content":{}},"400":{"description":"Bad Request","headers":{"x-correlation-id":{"description":"Specify the transaction identifier received from the request or added by the API otherwise","schema":{"type":"string"}}},"content":{"application/json":{"schema":{"required":["error"],"type":"object","properties":{"error":{"required":["code","message","reason"],"type":"object","properties":{"code":{"type":"string"},"reason":{"type":"string"},"message":{"type":"string"}}}},"description":"This is generic common error handling","title":"errorResponse"}}}},"401":{"description":"Unauthorized","headers":{"x-correlation-id":{"description":"Specify the transaction identifier received from the request or added by the API otherwise","schema":{"type":"string"}}},"content":{"application/json":{"schema":{"required":["error"],"type":"object","properties":{"error":{"required":["code","message","reason"],"type":"object","properties":{"code":{"type":"string"},"reason":{"type":"string"},"message":{"type":"string"}}}},"description":"This is generic common error handling","title":"errorResponse"}}}},"403":{"description":"Unauthorized","headers":{"x-correlation-id":{"description":"Specify the transaction identifier received from the request or added by the API otherwise","schema":{"type":"string"}}},"content":{"application/json":{"schema":{"required":["error"],"type":"object","properties":{"error":{"required":["code","message","reason"],"type":"object","properties":{"code":{"type":"string"},"reason":{"type":"string"},"message":{"type":"string"}}}},"description":"This is generic common error handling","title":"errorResponse"}}}},"404":{"description":"Response when order does not exist.","headers":{"x-correlation-id":{"description":"Specify the transaction identifier received from the request or added by the API otherwise","schema":{"type":"string"}}},"content":{"application/json":{"schema":{"required":["error"],"type":"object","properties":{"error":{"required":["code","message","reason"],"type":"object","properties":{"code":{"type":"string"},"reason":{"type":"string"},"message":{"type":"string"}}}},"description":"This is generic common error handling","title":"errorResponse"}}}},"405":{"description":"Method Not Allowed","headers":{"x-correlation-id":{"description":"Specify the transaction identifier received from the request or added by the API otherwise","schema":{"type":"string"}}},"content":{"application/json":{"schema":{"required":["error"],"type":"object","properties":{"error":{"required":["code","message","reason"],"type":"object","properties":{"code":{"type":"string"},"reason":{"type":"string"},"message":{"type":"string"}}}},"description":"This is generic common error handling","title":"errorResponse"}}}},"406":{"description":"Not Acceptable","headers":{"x-correlation-id":{"description":"Specify the transaction identifier received from the request or added by the API otherwise","schema":{"type":"string"}}},"content":{"application/json":{"schema":{"required":["error"],"type":"object","properties":{"error":{"required":["code","message","reason"],"type":"object","properties":{"code":{"type":"string"},"reason":{"type":"string"},"message":{"type":"string"}}}},"description":"This is generic common error handling","title":"errorResponse"}}}},"410":{"description":"Response when marking order items as shipped is not possible.","content":{}},"412":{"description":"Precondition Failed","headers":{"x-correlation-id":{"description":"Specify the transaction identifier received from the request or added by the API otherwise","schema":{"type":"string"}}},"content":{"application/json":{"schema":{"required":["error"],"type":"object","properties":{"error":{"required":["code","message","reason"],"type":"object","properties":{"code":{"type":"string"},"reason":{"type":"string"},"message":{"type":"string"}}}},"description":"This is generic common error handling","title":"errorResponse"}}}},"415":{"description":"Unsupported Media Type","headers":{"x-correlation-id":{"description":"Specify the transaction identifier received from the request or added by the API otherwise","schema":{"type":"string"}}},"content":{"application/json":{"schema":{"required":["error"],"type":"object","properties":{"error":{"required":["code","message","reason"],"type":"object","properties":{"code":{"type":"string"},"reason":{"type":"string"},"message":{"type":"string"}}}},"description":"This is generic common error handling","title":"errorResponse"}}}},"500":{"description":"Internal Server Error","headers":{"x-correlation-id":{"description":"Specify the transaction identifier received from the request or added by the API otherwise","schema":{"type":"string"}}},"content":{"application/json":{"schema":{"required":["error"],"type":"object","properties":{"error":{"required":["code","message","reason"],"type":"object","properties":{"code":{"type":"string"},"reason":{"type":"string"},"message":{"type":"string"}}}},"description":"This is generic common error handling","title":"errorResponse"}}}},"502":{"description":"Bad Gateway","headers":{"x-correlation-id":{"description":"Specify the transaction identifier received from the request or added by the API otherwise","schema":{"type":"string"}}},"content":{"application/json":{"schema":{"required":["error"],"type":"object","properties":{"error":{"required":["code","message","reason"],"type":"object","properties":{"code":{"type":"string"},"reason":{"type":"string"},"message":{"type":"string"}}}},"description":"This is generic common error handling","title":"errorResponse"}}}},"504":{"description":"Gateway Time-out","headers":{"x-correlation-id":{"description":"Specify the transaction identifier received from the request or added by the API otherwise","schema":{"type":"string"}}},"content":{"application/json":{"schema":{"required":["error"],"type":"object","properties":{"error":{"required":["code","message","reason"],"type":"object","properties":{"code":{"type":"string"},"reason":{"type":"string"},"message":{"type":"string"}}}},"description":"This is generic common error handling","title":"errorResponse"}}}}}}
+>
+  
+</StatusCodes>
+
+

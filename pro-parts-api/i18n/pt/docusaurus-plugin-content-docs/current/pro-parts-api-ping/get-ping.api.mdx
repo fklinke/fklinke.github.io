@@ -1,0 +1,70 @@
+---
+id: get-ping
+title: "API Ping"
+description: "Any health check within the API would result in the the following responses being generated."
+sidebar_label: "/ping"
+hide_title: true
+hide_table_of_contents: true
+api: eJy1VE1v2zAM/SsCTxvgOOmOvhVdt+UyBP3YYWlQKDIdq5ElVaLTDyP/faDjpHHSdcWGBQgSiRT5+PjIBnKMKmhP2lnI4NQ+iRKloVKoEtVSPGgqtRVUojidjMWDq00uAsbakOju+Vs4Y9yDtgu2eWcjRjFHPi/QYpCEeQoJeBlkhYQhQjZtwMoKIQNlNFq61TkkoBlFiTLHAMkBuKsSxVnrOxh/Fq7YoPLeaCXZhTMEvK91wBwyCjUmEFWJlYSsAXrynCxS0HYB63VymD+iCkjvx3DZ+jOOv8YwY+eOL7Z/Go34p5/yslYKYyxqI75tWnPWtuaiewkJKGcJLfFb+YJleBc5QLMH4AXaFKTX35mAhP/9wBA5XQKRJNURZskWrZvfoWJefHAeA+kN1r1HR5UlgI+y8oavTtJROoJ1sst3zMMu6ZuBrifctVf60RPslk9RuRzNfoBml4VD7eGB56KaD9AMApLUBsNAet2nZVdG+0mAiWg5HueQwQLp1m/gVkil6+5awVMJGQw7a8Sw2oq/DoZlRuRjNhwuTI2DuVRLtHlaybBE8kYqTKuqSuVzHTB9LlLlqiNFXpJc8KChXengbMU6YHH340uvUx/cwMtAkeMMt8UOVydHMSfB5bXiQz/sjIejcG2fNLVd4a3w88vUBzebcGwx2ZS6OmDuMMW5zb3TlkRAw+tBkBN7UTgsk5be2Bt7HTEXhQv9TvPgTcZi09T0xrKOvItUyVaR3XBvqe9lb14m5n+vvE7PhI809EbqFmbbm6ZTxxRaiLMESheJz00zlxGvg1mv+fq+xvAE2XSWwEoGLedM/HS2TrZLiuWU68iGHLJCmohvFPzholsCH8V7NuqrBSzx6WBxr6Sp2a/V3r+C+e1q/TOY3RbvAdq4nCqFft92tCxZ4bsR/np+Bev1L3Ayde0=
+sidebar_class_name: "get api-method"
+info_path: docs/pro-parts-api-ping/api-zf-pro-parts-ping
+custom_edit_url: null
+---
+
+import MethodEndpoint from "@theme/ApiExplorer/MethodEndpoint";
+import ParamsDetails from "@theme/ParamsDetails";
+import RequestSchema from "@theme/RequestSchema";
+import StatusCodes from "@theme/StatusCodes";
+import OperationTabs from "@theme/OperationTabs";
+import TabItem from "@theme/TabItem";
+import Heading from "@theme/Heading";
+
+<Heading
+  as={"h1"}
+  className={"openapi__heading"}
+  children={"/ping"}
+>
+</Heading>
+
+<MethodEndpoint
+  method={"get"}
+  path={"/ping"}
+  context={"endpoint"}
+>
+  
+</MethodEndpoint>
+
+
+
+Utilizado para verificar o status de saúde de todas as APIs.
+
+<Heading
+  id={"request"}
+  as={"h2"}
+  className={"openapi-tabs__heading"}
+  children={"Request"}
+>
+</Heading>
+
+<ParamsDetails
+  parameters={[{"name":"client_id","in":"header","description":"O Client-ID da Aplicação.","required":true,"schema":{"type":"string"}},{"name":"client_secret","in":"header","description":"O Client-Secret da Aplicação.","required":true,"schema":{"type":"string"}}]}
+>
+  
+</ParamsDetails>
+
+<RequestSchema
+  title={"Body"}
+  body={undefined}
+>
+  
+</RequestSchema>
+
+<StatusCodes
+  id={undefined}
+  label={undefined}
+  responses={{"200":{"description":"Successful Health Check Response","content":{"application/json":{"schema":{"required":["apiName","apiVersion","status"],"type":"object","properties":{"apiVersion":{"type":"string","example":"1.0.0"},"apiName":{"type":"string"},"status":{"type":"string","example":"UP"}},"description":"The health check response model","example":{"status":"UP","apiName":"zfmb-el-retailer-api","apiVersion":"1.0.0"}}}}}}}
+>
+  
+</StatusCodes>
+
+

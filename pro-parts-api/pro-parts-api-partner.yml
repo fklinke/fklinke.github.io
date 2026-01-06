@@ -1,0 +1,54 @@
+openapi: 3.0.3
+info:
+  title: API ZF[pro]Parts Partners
+  version: 1.0.0
+  description: 'Specification for all endpoints related to [pro]Parts Partners API'
+servers:
+  - url: https://glue-backend.marketplace.mmm.azure.zf.com
+    description: Staging environment
+  - url: https://api.pro-parts.com/retailer/v1
+    description: Production environment
+paths:
+  /partner/sso/generate-token:
+    get:
+      summary: Generate SSO token
+      description: Generate an SSO token for a partner user.
+      parameters:
+      - name: partnerKey
+        in: query
+        required: true
+        schema:
+          type: string
+        description: Partner key in [pro]Parts
+      - name: partnerWorkshopKey
+        in: query
+        required: true
+        schema:
+          type: string
+        description: Workshop key in partner system
+      - name: partnerUserKey
+        in: query
+        required: true
+        schema:
+          type: string
+        description: User key in partner system
+      responses:
+        '200':
+          description: Token generated
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  token:
+                    type: string
+                    example: 7c8df1dd-0b1b-4ce7-a4bd-79c769cfd072
+        '400':
+          description: Bad request
+        '401':
+          description: Unauthorized
+        '500':
+          description: Server error
+      security:
+      - ClientId: []
+        ClientSecret: []
