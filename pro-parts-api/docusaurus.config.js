@@ -9,7 +9,7 @@ const config = {
     v4: true,
   },
 
-  url: 'https://www.pro-parts.com/',
+  url: 'https://fklinke.github.io/',
   baseUrl: '/',
 
   organizationName: 'ZF',
