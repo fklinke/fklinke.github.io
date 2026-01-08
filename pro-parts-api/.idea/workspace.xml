@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="dd7012d2-d031-453f-a6b7-989f4489e1e5" name="Changes" comment="update docusaurus to github pages domain" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 6
+}</component>
+  <component name="ProjectId" id="36hiOwZBvx5TisMFFBUrnIEO9ka" />
+  <component name="ProjectViewState">
+    <option name="autoscrollFromSource" value="true" />
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "//wsl.localhost/Ubuntu/home/ferganiki/pro-parts-api/static/img",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "preferences.lookFeel",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="\\wsl.localhost\Ubuntu\home\ferganiki\pro-parts-api\static\img" />
+      <recent name="\\wsl.localhost\Ubuntu\home\ferganiki\pro-parts-api\i18n\pt\docusaurus-plugin-content-docs\current" />
+      <recent name="\\wsl.localhost\Ubuntu\home\ferganiki\pro-parts-api\i18n\pt\docusaurus-plugin-content-docs\current\pro-parts-api-offer" />
+      <recent name="\\wsl.localhost\Ubuntu\home\ferganiki\pro-parts-api\i18n\pt\docusaurus-plugin-content-docs\current\api" />
+      <recent name="\\wsl.localhost\Ubuntu\home\ferganiki\pro-parts-api" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="\\wsl.localhost\Ubuntu\home\ferganiki\pro-parts-api\static\img" />
+      <recent name="\\wsl.localhost\Ubuntu\home\ferganiki\pro-parts-api" />
+    </key>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-js-predefined-d6986cc7102b-a71380e98a7c-JavaScript-PS-252.28238.9" />
+        <option value="bundled-php-predefined-a98d8de5180a-58f58c5035b3-com.jetbrains.php.sharedIndexes-PS-252.28238.9" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="dd7012d2-d031-453f-a6b7-989f4489e1e5" name="Changes" comment="" />
+      <created>1765465175466</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1765465175466</updated>
+      <workItem from="1765465176588" duration="6066000" />
+      <workItem from="1765543550908" duration="5902000" />
+      <workItem from="1765797738121" duration="26438000" />
+      <workItem from="1765972347646" duration="6921000" />
+      <workItem from="1766054153616" duration="18320000" />
+      <workItem from="1766145165095" duration="7992000" />
+      <workItem from="1766413245591" duration="15651000" />
+      <workItem from="1767012724695" duration="13127000" />
+      <workItem from="1767103340431" duration="8366000" />
+      <workItem from="1767118936452" duration="3795000" />
+      <workItem from="1767611095156" duration="15225000" />
+      <workItem from="1767695570807" duration="19289000" />
+      <workItem from="1767723252587" duration="3519000" />
+      <workItem from="1767789926067" duration="2257000" />
+      <workItem from="1767868776274" duration="6289000" />
+    </task>
+    <task id="LOCAL-00001" summary="initial commit for ZF[pro] API">
+      <option name="closed" value="true" />
+      <created>1767710542547</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1767710542547</updated>
+    </task>
+    <task id="LOCAL-00002" summary="remove /build from gitignore">
+      <option name="closed" value="true" />
+      <created>1767793527437</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1767793527437</updated>
+    </task>
+    <task id="LOCAL-00003" summary="fix portuguese">
+      <option name="closed" value="true" />
+      <created>1767793536538</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1767793536538</updated>
+    </task>
+    <task id="LOCAL-00004" summary="add /build to gitignore">
+      <option name="closed" value="true" />
+      <created>1767796716591</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1767796716591</updated>
+    </task>
+    <task id="LOCAL-00005" summary="add rename /build to docs">
+      <option name="closed" value="true" />
+      <created>1767797007000</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1767797007000</updated>
+    </task>
+    <task id="LOCAL-00006" summary="add rename /build to docs">
+      <option name="closed" value="true" />
+      <created>1767797022352</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1767797022352</updated>
+    </task>
+    <task id="LOCAL-00007" summary="update config to github pages">
+      <option name="closed" value="true" />
+      <created>1767872356105</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1767872356105</updated>
+    </task>
+    <task id="LOCAL-00008" summary="stop tracking build folder">
+      <option name="closed" value="true" />
+      <created>1767872666999</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1767872666999</updated>
+    </task>
+    <task id="LOCAL-00009" summary="update docusaurus to github pages domain">
+      <option name="closed" value="true" />
+      <created>1767873315871</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1767873315871</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="initial commit for ZF[pro] API" />
+    <MESSAGE value="remove /build from gitignore" />
+    <MESSAGE value="fix portuguese" />
+    <MESSAGE value="add /build to gitignore" />
+    <MESSAGE value="add rename /build to docs" />
+    <MESSAGE value="update config to github pages" />
+    <MESSAGE value="stop tracking build folder" />
+    <MESSAGE value="update docusaurus to github pages domain" />
+    <option name="LAST_COMMIT_MESSAGE" value="update docusaurus to github pages domain" />
+  </component>
+</project>
